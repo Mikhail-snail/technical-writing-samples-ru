@@ -120,37 +120,16 @@ a:focus-visible,
 }
 
 .brand {
-  position: relative;
   display: inline-grid;
   place-items: center;
   width: 42px;
   height: 42px;
-  border: 1.5px solid var(--accent);
+  border: 1.5px solid var(--coral);
   border-radius: 11px;
   background: rgba(255, 253, 248, .82);
   color: var(--accent);
-  text-decoration: none;
   font-weight: 850;
   letter-spacing: -0.04em;
-  box-shadow: none;
-  transition: transform .15s ease, background .15s ease, border-color .15s ease;
-}
-
-.brand::after {
-  content: "";
-  position: absolute;
-  right: 6px;
-  bottom: -4px;
-  width: 11px;
-  height: 3px;
-  border-radius: 999px;
-  background: var(--coral);
-}
-
-.brand:hover {
-  transform: translateY(-1px);
-  border-color: var(--accent-dark);
-  background: var(--accent-soft);
 }
 
 .nav-links {
