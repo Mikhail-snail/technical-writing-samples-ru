@@ -461,8 +461,12 @@ h1 {
   --card-accent: var(--accent);
 }
 
-.grid .featured-card {
+.grid .card.featured-card {
   --card-accent: var(--coral);
+}
+
+.grid .card.short-card {
+  --card-accent: var(--accent);
 }
 
 .card::before {
