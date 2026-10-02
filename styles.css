@@ -602,13 +602,13 @@ h1 {
   font-size: 30px;
 }
 
-.cta-card > p:not(.cta-kicker):not(.contact-email) {
+.cta-card > p:not(.cta-kicker) {
   max-width: 640px;
   margin: 18px 0 0;
   color: var(--muted);
 }
 
-.cta-accent > p:not(.cta-kicker):not(.contact-email) {
+.cta-accent > p:not(.cta-kicker) {
   color: rgba(255,255,255,.83);
 }
 
@@ -649,20 +649,27 @@ h1 {
 }
 
 .contact-box {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
-  flex-wrap: wrap;
+  max-width: 526px;
   margin-top: 28px;
 }
 
-.contact-email {
-  margin: 12px 0 0;
-  color: var(--muted);
-  font-size: 13px;
+.contact-option {
+  display: grid;
+  gap: 8px;
+  justify-items: stretch;
 }
 
-.cta-accent .contact-email {
+.contact-option .button {
+  width: 100%;
+}
+
+.contact-detail {
   color: rgba(255,255,255,.68);
+  font-size: 13px;
+  text-align: center;
 }
 
 /* Footer */
@@ -1106,6 +1113,11 @@ footer {
 
   .card h3 {
     font-size: 24px;
+  }
+
+  .contact-box {
+    grid-template-columns: 1fr;
+    max-width: 100%;
   }
 
   .article-masthead {
