@@ -17,9 +17,6 @@
   --coral-dark: #bd402f;
   --coral-soft: #ffe9e3;
 
-  --gold: #b47a18;
-  --gold-soft: #fff1cf;
-
   --code-bg: #f1f0ec;
   --max: 1180px;
   --article: 840px;
@@ -303,7 +300,7 @@ h1 {
 }
 
 #contact.section {
-  background: #fff2ec;
+  background: #fff9f1;
 }
 
 .section-grid {
@@ -400,10 +397,6 @@ h1 {
   background: var(--accent);
 }
 
-.proof:nth-child(even)::before {
-  background: var(--coral);
-}
-
 .proof strong {
   display: block;
   margin-bottom: 5px;
@@ -414,6 +407,26 @@ h1 {
 .proof span {
   color: var(--muted);
   font-size: 14px;
+}
+
+.expertise-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 4px 0 22px;
+}
+
+.expertise-row span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: rgba(255,255,255,.52);
+  color: var(--muted-dark);
+  font-size: 13px;
+  font-weight: 700;
 }
 
 /* Cards */
@@ -445,10 +458,6 @@ h1 {
 
 .grid .card:nth-child(2) {
   --card-accent: var(--coral);
-}
-
-.grid .card:nth-child(3) {
-  --card-accent: var(--gold);
 }
 
 .card::before {
@@ -654,7 +663,7 @@ h1 {
 
 footer {
   padding: 0 0 36px;
-  background: #fff2ec;
+  background: #fff9f1;
   color: var(--muted);
   font-size: 14px;
 }
@@ -891,16 +900,17 @@ footer {
 
 .sample-note {
   margin-top: 46px;
-  padding: 24px 25px;
-  border: 1px solid #f3b6a8;
-  border-radius: 16px;
-  background: var(--coral-soft);
+  padding: 22px 24px;
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--coral);
+  border-radius: 14px;
+  background: #fffaf5;
 }
 
 .sample-note h2 {
-  margin: 0 0 12px;
-  color: #8f2f22;
-  font-size: 21px;
+  margin: 0 0 10px;
+  color: var(--text);
+  font-size: 20px;
 }
 
 .sample-note p,
