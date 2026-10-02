@@ -457,12 +457,11 @@ h1 {
     box-shadow .18s ease;
 }
 
-.grid .card:nth-child(1),
-.grid .card:nth-child(3) {
+.grid .card {
   --card-accent: var(--accent);
 }
 
-.grid .card:nth-child(2) {
+.grid .featured-card {
   --card-accent: var(--coral);
 }
 
