@@ -416,17 +416,18 @@ h1 {
   margin: 4px 0 22px;
 }
 
-.expertise-row span {
+.expertise-pill {
   display: inline-flex;
   align-items: center;
-  min-height: 32px;
-  padding: 6px 10px;
+  min-height: 34px;
+  padding: 7px 12px;
   border: 1px solid var(--border);
   border-radius: 999px;
-  background: rgba(255,255,255,.52);
+  background: rgba(255,255,255,.78);
   color: var(--muted-dark);
   font-size: 13px;
   font-weight: 700;
+  line-height: 1;
 }
 
 /* Cards */
@@ -454,6 +455,11 @@ h1 {
     transform .18s ease,
     border-color .18s ease,
     box-shadow .18s ease;
+}
+
+.grid .card:nth-child(1),
+.grid .card:nth-child(3) {
+  --card-accent: var(--accent);
 }
 
 .grid .card:nth-child(2) {
