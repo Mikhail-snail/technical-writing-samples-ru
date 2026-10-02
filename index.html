@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Примеры технических материалов Михаила Безрукова, Senior Technical Writer: docs-as-code, AI-assisted workflows, Git, CI/CD и Python.">
+  <meta name="description" content="Портфолио Михаила Безрукова, Senior Technical Writer: docs-as-code, автоматизация документации, AI-assisted workflows, Git, CI/CD и Python.">
   <meta name="author" content="Mikhail Bezrukov">
   <meta name="robots" content="index, follow">
   <meta property="og:title" content="Mikhail Bezrukov — Senior Technical Writer">
-  <meta property="og:description" content="Примеры технических материалов Михаила Безрукова: docs-as-code, AI-assisted workflows, Git, CI/CD и Python.">
+  <meta property="og:description" content="Инженерные кейсы из technical writing: docs-as-code, автоматизация документации и AI-assisted workflows.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://mikhail-snail.github.io/technical-writing-samples-ru/">
   <meta property="og:locale" content="ru_RU">
@@ -19,11 +19,11 @@
 <body id="top">
   <header class="hero">
     <div class="wrap">
-      <nav class="topnav" aria-label="Main navigation">
+      <nav class="topnav" aria-label="Основная навигация">
         <a class="brand" href="#top" aria-label="Mikhail Bezrukov — на главную">MB</a>
         <div class="nav-links">
+          <a href="#about">Обо мне</a>
           <a href="#samples">Примеры</a>
-          <a href="https://t.me/mishka_v_kurse" target="_blank" rel="noreferrer">Telegram-канал ↗</a>
           <a href="#contact">Контакты</a>
         </div>
       </nav>
@@ -32,17 +32,22 @@
         <p class="eyebrow">Technical Writer · Documentation Engineering</p>
         <h1>Mikhail Bezrukov</h1>
         <p class="role">Senior Technical Writer</p>
+
         <p class="lead">
-          Пишу о documentation engineering, docs-as-code, AI-assisted workflows
-          и автоматизации контентных процессов.
+          Разбираю инженерные кейсы из technical writing: docs-as-code,
+          автоматизацию документации и AI-assisted workflows — с фокусом
+          на решения, ограничения и trade-offs.
         </p>
+        <p class="availability">Открыт к подготовке технических статей для корпоративных IT-блогов.</p>
 
         <div class="hero-actions">
           <a class="button" href="#samples">Смотреть примеры</a>
-          <a class="button secondary" href="https://t.me/mishka_v_kurse" target="_blank" rel="noreferrer">
-            Telegram-канал ↗
-          </a>
+          <a class="button secondary" href="#contact">Обсудить статью</a>
         </div>
+
+        <a class="hero-channel" href="https://t.me/mishka_v_kurse" target="_blank" rel="noreferrer">
+          Профессиональный Telegram-канал «Мишка в курсе» ↗
+        </a>
 
         <div class="tags hero-tags">
           <span class="tag">Docs-as-code</span>
@@ -65,18 +70,38 @@
 
         <div class="about">
           <p class="about-lead">
-            Senior Technical Writer с опытом работы над крупными продуктовыми базами знаний
-            и docs-as-code процессами.
+            Работаю на стыке технической документации и engineering:
+            архитектура базы знаний, docs-as-code, контроль качества и автоматизация.
           </p>
           <p>
-            Работаю с архитектурой документации, автоматизацией контроля качества
-            и AI-assisted workflows. В ежедневной работе использую Git, Docusaurus,
-            CI/CD, Python и Claude Code.
+            В ежедневной работе использую Git, Docusaurus, CI/CD, Python и Claude Code.
+            Мне интересны задачи, где внутреннюю инженерную проблему можно превратить
+            в понятную техническую историю: показать не только итоговое решение,
+            но и ограничения, неудачные подходы и причины выбора.
           </p>
-          <p>
-            Ниже — короткие writing samples на основе обезличенных рабочих кейсов.
-            Полные версии можно развернуть в технические статьи с архитектурой,
-            реализацией, trade-offs и разбором неудачных решений.
+
+          <div class="proof-grid" aria-label="Ключевые факты об опыте">
+            <div class="proof">
+              <strong>200+</strong>
+              <span>статей в продуктовой базе знаний</span>
+            </div>
+            <div class="proof">
+              <strong>8 сервисов</strong>
+              <span>в моей зоне ответственности</span>
+            </div>
+            <div class="proof">
+              <strong>Docs-as-code</strong>
+              <span>Git · Docusaurus · CI/CD</span>
+            </div>
+            <div class="proof">
+              <strong>Automation</strong>
+              <span>Python · Claude Code · QA-проверки</span>
+            </div>
+          </div>
+
+          <p class="about-note">
+            Кейсы ниже обезличены: я не раскрываю продуктовые названия и внутренние данные,
+            но отдельно обозначаю свою роль и границы личного участия.
           </p>
         </div>
       </div>
@@ -89,7 +114,10 @@
             <span>02</span>
             <h2>Writing samples</h2>
           </div>
-          <p>Три коротких технических кейса: AI-workflows, документационный линтинг и Git/CI.</p>
+          <p>
+            Три рабочих кейса показывают разные стороны моей практики:
+            AI-workflows, editorial automation и инженерный анализ Git/CI.
+          </p>
         </div>
 
         <div class="grid">
@@ -103,30 +131,30 @@
               Как разделить семантические решения LLM и детерминированные проверки,
               чтобы AI-workflow стал воспроизводимым.
             </p>
+            <p class="demonstrates"><strong>Показывает:</strong> архитектурное мышление и границы применения LLM.</p>
             <div class="tags">
               <span class="tag">Claude Code</span>
               <span class="tag">Python</span>
-              <span class="tag">AI workflows</span>
             </div>
             <div class="card-link">Читать пример <span>→</span></div>
           </a>
 
-          <a class="card" href="samples/docs-linter.html">
+          <a class="card featured-card" href="samples/docs-linter.html">
             <div class="card-top">
-              <div class="card-kicker">Docs-as-code</div>
+              <div class="card-kicker">Полная статья · Docs-as-code</div>
               <div class="card-number">02</div>
             </div>
             <h3>Когда правила документации пора превращать в код</h3>
             <p>
-              Как повторяющиеся замечания ревью становятся lint-rules
-              и почему не каждое правило стоит автоматизировать.
+              Как повторяющиеся замечания ревью превратились в Python-линтер
+              и где проходит граница между автоматической проверкой и редакторским суждением.
             </p>
+            <p class="demonstrates"><strong>Показывает:</strong> стык editorial practice, Python и documentation QA.</p>
             <div class="tags">
               <span class="tag">Python</span>
-              <span class="tag">Documentation QA</span>
               <span class="tag">Linting</span>
             </div>
-            <div class="card-link">Читать пример <span>→</span></div>
+            <div class="card-link">Читать полную статью <span>→</span></div>
           </a>
 
           <a class="card" href="samples/updated-date.html">
@@ -136,13 +164,13 @@
             </div>
             <h3>Shallow clone и одна дата Updated</h3>
             <p>
-              Как маленькая UI-фича привела к Git history, hashes,
-              generated state и особенностям CI.
+              Как небольшая UI-фича привела к истории Git, хешам,
+              сгенерированному состоянию и особенностям CI.
             </p>
+            <p class="demonstrates"><strong>Показывает:</strong> системный анализ Git/CI и работу с trade-offs.</p>
             <div class="tags">
               <span class="tag">Git</span>
               <span class="tag">CI/CD</span>
-              <span class="tag">SHA-256</span>
             </div>
             <div class="card-link">Читать пример <span>→</span></div>
           </a>
@@ -153,30 +181,32 @@
     <section id="contact" class="section section-last">
       <div class="wrap bottom-grid">
         <article class="cta-card cta-accent">
-          <p class="cta-kicker">More writing</p>
-          <h2>Мишка в курсе</h2>
-          <p>
-            В Telegram пишу о том, как technical writing меняется под влиянием docs-as-code,
-            AI-инструментов и автоматизации — на примерах из реальной рабочей практики.
-          </p>
-          <a class="text-link" href="https://t.me/mishka_v_kurse" target="_blank" rel="noreferrer">
-            Открыть Telegram-канал <span>↗</span>
-          </a>
-        </article>
-
-        <article class="cta-card">
           <p class="cta-kicker">Contact</p>
-          <h2>Обсудить проект</h2>
+          <h2>Обсудить техническую статью</h2>
           <p>
-            Открыт к проектам по подготовке технических статей
-            и материалов для корпоративных IT-блогов.
+            Интересны практические материалы о documentation engineering, docs-as-code,
+            автоматизации, AI-инструментах и смежных инженерных задачах.
+            Готов работать с редакторскими комментариями и технической проверкой материала.
           </p>
           <div class="contact-box">
-            <a class="button" href="mailto:snail7070@gmail.com">Email</a>
+            <a class="button" href="mailto:snail7070@gmail.com">Написать на email</a>
             <a class="button secondary" href="https://t.me/el_miguel" target="_blank" rel="noreferrer">
               Написать в Telegram ↗
             </a>
           </div>
+          <p class="contact-email">snail7070@gmail.com</p>
+        </article>
+
+        <article class="cta-card">
+          <p class="cta-kicker">More writing</p>
+          <h2>Мишка в курсе</h2>
+          <p>
+            В Telegram делюсь практическими наблюдениями о technical writing,
+            docs-as-code, AI-инструментах и автоматизации документационных процессов.
+          </p>
+          <a class="text-link" href="https://t.me/mishka_v_kurse" target="_blank" rel="noreferrer">
+            Открыть Telegram-канал <span>↗</span>
+          </a>
         </article>
       </div>
     </section>
@@ -185,7 +215,7 @@
   <footer>
     <div class="wrap footer-inner">
       <span>© 2026 Mikhail Bezrukov</span>
-      <a href="https://t.me/mishka_v_kurse" target="_blank" rel="noreferrer">Telegram-канал ↗</a>
+      <a href="#samples">Writing samples ↑</a>
     </div>
   </footer>
 </body>
